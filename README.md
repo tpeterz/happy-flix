@@ -1,2 +1,1 @@
 # happy-flix
-# Sean
