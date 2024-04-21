@@ -1,2 +1,2 @@
-Emotion: Neutral
-Genres: Crime, Drama, Mystery
+Emotions: Neutral
+Genres: Comedy, Adventure, Action
