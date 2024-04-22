@@ -3,8 +3,13 @@
 ## MSU AI Bootcamp: Project #3
 
 ###
-## Team:
+## Team: HappyFlix
 ### Members:
+Michael FORD
+Cristian GOIAN
+Sean KAVANAGH
+Chris MARTELLA
+Taylor PETERSON
 
 
 ## Description
