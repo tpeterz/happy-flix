@@ -107,6 +107,8 @@ Total recommended votes
 
 
 ## Problems encountered
+- Processing many of the jupyter notebook cells strained our relatively fast CPUs and took many hours to process, even after changing parameters
+- Gradio is a bit more challenging when it comes to layout customization when compared to HTML
 
 
 ## Future Considerations
