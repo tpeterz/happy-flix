@@ -1,20 +1,20 @@
 # HappyFlix: Emotion Based Movie Selection  
 
-<img src="AI_Art/HappyFlix_Logo.png" alt="Happy Flix Logo" width="900"/>
+<img src="Readme_Art/HappyFlix_Logo.png" alt="Happy Flix Logo" width="900"/>
 
 ## MSU AI Bootcamp: Project #3
 
-<img src="AI_Art/DLU.jpg" alt="Don't Look Up" width="900"/>
+<img src="Readme_Art/DLU.jpg" alt="Don't Look Up" width="900"/>
 
 ## HappyFlix Development Team
 ### Members:
 
-<img src="AI_Art/TeamArt.jpg" alt="Team Art"/>
+<img src="Readme_Art/TeamArt.jpg" alt="Team Art"/>
 
 ## Description
 Our project dives into the realm of human emotion based movie selection suggestions. Our interface requests the viewer to speak into their microphone to say how their day was, what kind of mood they are in, and what kind of movie they would like to watch. The movie request can include genres, vibes, themes, or specific subjects, such as aliens, brooms, or bananas. The dataset includes summaries and reviews of over 6,000 popular movies from The Movie Database, spanning from January 1970 to April 2024.
 
-<img src="AI_Art/MovieHead.jpg" alt="Movie Head" width="900"/>
+<img src="Readme_Art/MovieHead.jpg" alt="Movie Head" width="900"/>
 
 ## Getting Started
 
@@ -25,7 +25,7 @@ To explore our findings and analysis, follow these steps:
 3. **Access**: To utilize many of our notebooks, you will need to obtain access keys from the following sources:
 `HuggingFace` `OpenAI` `The Movie Database` 
 
-<img src="AI_Art/Transformers.jpg" alt="Transformers" width="900"/>
+<img src="Readme_Art/Transformers.jpg" alt="Transformers" width="900"/>
 
 ## Dependencies / Required Packages
 
@@ -58,7 +58,7 @@ To explore our findings and analysis, follow these steps:
     - A review sentiment summary
     - The poster image of the movie
 
-<img src="AI_Art/TMDBLogo.png" alt="TMDB Logo" width="900"/>
+<img src="Readme_Art/TMDBLogo.png" alt="TMDB Logo" width="900"/>
 
 ## **Dataset Overview**
 [The Movie Database (TMDB) API](https://developer.themoviedb.org/reference/intro/getting-started) 
@@ -128,7 +128,7 @@ Purged:
 - Release month and day from release date
 - Total recommended votes
 
-<img src="AI_Art/Emotions.jpg" alt="Emotions" width="900"/>
+<img src="Readme_Art/Emotions.jpg" alt="Emotions" width="900"/>
 
 ## Outline of Analytical Process
 1. Using Gradio and OpenAI's GPT-4 model, users can record a clip of them speaking, which can then converted to text.
@@ -137,7 +137,7 @@ Purged:
 4. The movie selection is based on a combination of mood anaylsis, movie preference analysis, and movie review sentiment analysis.
 5. The following wheel represents the full list of emotions that we would have liked to include in our emotion sentiment analysis. However, we were not able to find a model through HuggingFace that could perform such refine predictions
 
-<img src="AI_Art/Emotion_Wheel.jpg" alt="Emotion Wheel" width="900"/>
+<img src="Readme_Art/Emotion_Wheel.jpg" alt="Emotion Wheel" width="900"/>
 
 
 
@@ -174,15 +174,15 @@ imported the selected CSV file into our project repository.
 7. **Building of a Gradio Interface**
     - Utilizing Gradio we created a voice recording and automatic speech recognition interface that outputs an audio file to a text file using OpenAI’s whisper-base engine. The output is then analyzed by OpenAI’s ChatGTP 4.0’s “chat.completion” method. The result of this method analysis created two outputs, one identifying the genre preference based on the TMDB categories and the other the emotional state from the Stanford emotional whee.  This output file is then run through the selector program.
 
-<img src="AI_Art/Gradio.jpg" alt="Gradio" width="900"/>
-<img src="AI_Art/MovieOutput.jpg" alt="Movie Output" width="900"/>
+<img src="Readme_Art/Gradio.jpg" alt="Gradio" width="900"/>
+<img src="Readme_Art/MovieOutput.jpg" alt="Movie Output" width="900"/>
 
 ## Problems Encountered
 - Processing many of the jupyter notebook cells strained our relatively fast CPUs and took many hours to process, even after changing parameters
 - Gradio is a bit more challenging when it comes to layout customization when compared to HTML
 - The HuggingFace model chosen to perform our analysis could detect 6 emotions from textual data. While this is more than what most models (that we could find)
 
-<img src="AI_Art/CPU.jpg" alt="Transformers" width="900"/>
+<img src="Readme_Art/CPU.jpg" alt="Transformers" width="900"/>
 
 
 ## Future Considerations
@@ -192,7 +192,7 @@ imported the selected CSV file into our project repository.
 - TMDB recently added a user provided emoji-based mood/emotion system foreach movie
     -  However, as of April 2024, this data is not included as part of the API
 
-<img src="AI_Art/TMDBVibes.png" alt="TMDB Vibes" width="900"/>
+<img src="Readme_Art/TMDBVibes.png" alt="TMDB Vibes" width="900"/>
 - If time and resources allow, we could explore further optimization techniques such as:        
     - Hyperparameter tuning
     - Experimenting with different architectures
@@ -220,12 +220,12 @@ imported the selected CSV file into our project repository.
 
 [The Movie Database](https://www.themoviedb.org/)
 
-<img src="AI_Art/3DGlasses.jpg" alt="3D Glasses" width="900"/>
+<img src="Readme_Art/3DGlasses.jpg" alt="3D Glasses" width="900"/>
 
 
 
-<img src="AI_Art/MovieArt.jpg" alt="Movie Art" width="900"/>
+<img src="Readme_Art/MovieArt.jpg" alt="Movie Art" width="900"/>
 
 
 
-<img src="AI_Art/Theater.jpg" alt="Movie Theater" width="900"/>
+<img src="Readme_Art/Theater.jpg" alt="Movie Theater" width="900"/>
