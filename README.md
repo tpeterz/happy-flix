@@ -1,10 +1,10 @@
 # HappyFlix: Emotion Based Movie Selection  
 
-<img src="Readme_Art/HappyFlix_Logo.png" alt="Happy Flix Logo" width="900"/>
+<img src="Readme_Art/HappyFlix_Logo.png" alt="Happy Flix Logo" width="200"/>
 
 ## MSU AI Bootcamp: Project #3
 
-<img src="Readme_Art/DLU.jpg" alt="Don't Look Up" width="900"/>
+<img src="Readme_Art/DLU.jpg" alt="Don't Look Up" width="200"/>
 
 ## HappyFlix Development Team
 ### Members:
@@ -14,7 +14,7 @@
 ## Description
 Our project dives into the realm of human emotion based movie selection suggestions. Our interface requests the viewer to speak into their microphone to say how their day was, what kind of mood they are in, and what kind of movie they would like to watch. The movie request can include genres, vibes, themes, or specific subjects, such as aliens, brooms, or bananas. The dataset includes summaries and reviews of over 6,000 popular movies from The Movie Database, spanning from January 1970 to April 2024.
 
-<img src="Readme_Art/MovieHead.jpg" alt="Movie Head" width="900"/>
+<img src="Readme_Art/MovieHead.jpg" alt="Movie Head" width="200"/>
 
 ## Getting Started
 
@@ -25,7 +25,7 @@ To explore our findings and analysis, follow these steps:
 3. **Access**: To utilize many of our notebooks, you will need to obtain access keys from the following sources:
 `HuggingFace` `OpenAI` `The Movie Database` 
 
-<img src="Readme_Art/Transformers.jpg" alt="Transformers" width="900"/>
+<img src="Readme_Art/Transformers.jpg" alt="Transformers" width="200"/>
 
 ## Dependencies / Required Packages
 
@@ -49,6 +49,8 @@ To explore our findings and analysis, follow these steps:
     - SentimentIntensityAnalyzer
     - VADER
 
+<img src="Readme_Art/MovieArt.jpg" alt="Movie Art" width="200"/>
+
 ## Goals / Questions to be addressed
 1. Can someone's mood and movie preference be analyzed by AI to suggest the perfect movie for them to watch at a particular time?
 2. Can our AI system choose a variety of different movies depending on user input?
@@ -58,7 +60,7 @@ To explore our findings and analysis, follow these steps:
     - A review sentiment summary
     - The poster image of the movie
 
-<img src="Readme_Art/TMDBLogo.png" alt="TMDB Logo" width="900"/>
+<img src="Readme_Art/TMDBLogo.png" alt="TMDB Logo" width="100"/>
 
 ## **Dataset Overview**
 [The Movie Database (TMDB) API](https://developer.themoviedb.org/reference/intro/getting-started) 
@@ -128,7 +130,7 @@ Purged:
 - Release month and day from release date
 - Total recommended votes
 
-<img src="Readme_Art/Emotions.jpg" alt="Emotions" width="900"/>
+<img src="Readme_Art/Emotions.jpg" alt="Emotions" width="200"/>
 
 ## Outline of Analytical Process
 1. Using Gradio and OpenAI's GPT-4 model, users can record a clip of them speaking, which can then converted to text.
@@ -137,7 +139,7 @@ Purged:
 4. The movie selection is based on a combination of mood anaylsis, movie preference analysis, and movie review sentiment analysis.
 5. The following wheel represents the full list of emotions that we would have liked to include in our emotion sentiment analysis. However, we were not able to find a model through HuggingFace that could perform such refine predictions
 
-<img src="Readme_Art/Emotion_Wheel.jpg" alt="Emotion Wheel" width="900"/>
+<img src="Readme_Art/Emotion_Wheel.jpg" alt="Emotion Wheel" width="300"/>
 
 
 
@@ -182,7 +184,7 @@ imported the selected CSV file into our project repository.
 - Gradio is a bit more challenging when it comes to layout customization when compared to HTML
 - The HuggingFace model chosen to perform our analysis could detect 6 emotions from textual data. While this is more than what most models (that we could find)
 
-<img src="Readme_Art/CPU.jpg" alt="Transformers" width="900"/>
+<img src="Readme_Art/CPU.png" alt="Exploding CPU" width="200"/>
 
 
 ## Future Considerations
@@ -192,40 +194,14 @@ imported the selected CSV file into our project repository.
 - TMDB recently added a user provided emoji-based mood/emotion system foreach movie
     -  However, as of April 2024, this data is not included as part of the API
 
-<img src="Readme_Art/TMDBVibes.png" alt="TMDB Vibes" width="900"/>
+<img src="Readme_Art/TMDBVibes.png" alt="TMDB Vibes" width="600"/>
 - If time and resources allow, we could explore further optimization techniques such as:        
     - Hyperparameter tuning
     - Experimenting with different architectures
     - Leveraging additional data sources
 
-## Repository Files
-
-**Resources Folder** 
-| **File** | **Description** |
-| --- | --- | 
-| **[movie_reviews.csv](https://github.com/tpeterz/happy-flix/blob/ccf4c442127e905ff83f9af0711c185c0d0b666d/Resources/movie_reviews.csv)** | Movie data pulled from the TMDB API (1990 to 2024) |
-| **[movie_reviews_2.csv](https://github.com/tpeterz/happy-flix/blob/ccf4c442127e905ff83f9af0711c185c0d0b666d/Resources/movie_reviews_2.csv)** | Movie data pulled from the TMDB API (1970 to 1989) |
-| **[combined_movies.csv](https://github.com/tpeterz/happy-flix/blob/ccf4c442127e905ff83f9af0711c185c0d0b666d/Resources/combined_movies.csv)** | Contains `movie_reviews.csv` and `movie_reviews_2.csv` files, for a full dataset to work with (1970 to 2024) |
-| **[movies.csv](https://github.com/tpeterz/happy-flix/blob/ccf4c442127e905ff83f9af0711c185c0d0b666d/Resources/movies.csv)** | .csv file created from `Reviews_Combined_Sentiment.ipynb`file, which performed much of the data cleaning |
-| **[sentiment_movies.csv](https://github.com/tpeterz/happy-flix/blob/ccf4c442127e905ff83f9af0711c185c0d0b666d/Resources/sentiment_movies.csv)** | Another clean version of data from our cleaning process |
-| **[recommendation_ready.csv](https://github.com/tpeterz/happy-flix/blob/ccf4c442127e905ff83f9af0711c185c0d0b666d/Resources/recommendation_ready.csv)** | file with appropiate emotions labeled, this file will be used for our movie recommendation function |
-| **Reviews Folder** | | 
-| **File** | **Description** |
-| --- | --- | 
-
-
-    
-
 ## Acknowledgments
 
 [The Movie Database](https://www.themoviedb.org/)
 
-<img src="Readme_Art/3DGlasses.jpg" alt="3D Glasses" width="900"/>
-
-
-
-<img src="Readme_Art/MovieArt.jpg" alt="Movie Art" width="900"/>
-
-
-
-<img src="Readme_Art/Theater.jpg" alt="Movie Theater" width="900"/>
+<img src="Readme_Art/Theater.jpg" alt="Movie Theater" width="200"/>
