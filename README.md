@@ -5,11 +5,11 @@
 ###
 ## Team: HappyFlix
 ### Members:
-Michael FORD
-Cristian GOIAN
-Sean KAVANAGH
-Chris MARTELLA
-Taylor PETERSON
+- Michael FORD
+- Cristian GOIAN
+- Sean KAVANAGH
+- Chris MARTELLA
+- Taylor PETERSON
 
 
 ## Description
