@@ -1,4 +1,4 @@
-<img src="Readme_Art/HappyFlix_Logo.png" alt="Happy Flix Logo" width="450"/>
+<img src="Readme_Art/HappyFlix_Logo.png" alt="Happy Flix Logo" width="451"/>
 
 # HappyFlix: Emotion Based Movie Selection  
 
