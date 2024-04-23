@@ -37,6 +37,11 @@ To explore our findings and analysis, follow these steps:
 - Scikit-learn
 - Seaborn
 - Natural Language Toolkit (NLTK)
+    - WordNetLemmatizer
+    - WordTokenize
+    - Stopwords
+    - VaderLexicon
+    - SentimentIntensityAnalyzer
 - VADER
 - Gradio (Hugging Face)
 
@@ -61,7 +66,12 @@ We used data from The Movie Database (TMDB) for a record of movies and their gen
 
 
 ## **Data Overview**
-
+ • The Movie Database (TMDB) API
+ • Over 6,000 popular movies
+ • January 1970 –April 2024
+ • Release dates
+ • Overview summaries
+ • Review summaries
 ### Dataset Explanations
 
 - **Movie ID**
@@ -136,6 +146,12 @@ We used data from The Movie Database (TMDB) for a record of movies and their gen
     - Building of a Gradio Interface
 
 ## Data Clean-Up
+Purged:
+• Movie ID number
+• Popularity Score
+• Release month and day from release date
+• Total recommended votes
+
 <img src="Resources/data_clean_panda.jpg" alt="Happy Panda" width="200"/>
 
 ### Our process:
@@ -151,16 +167,11 @@ We used data from The Movie Database (TMDB) for a record of movies and their gen
 ## Conclusions
 <img src="Resources/happy_panda.jpg" alt="Happy Panda" width="200"/>
 
-- GDP is one of the largest driving factors affecting happiness.
-- Countries will high levels of corruption can still have high levels of happiness.
-    - For example, Saudi Arabia, has an imputed corruption score of 1 (the highest possible score), yet their happiness scores are not directly affected.
-    - An additional note on corruption: corruption is highly subjective and varies with different standards throughout the world.
-- Removing the financial crisis and COVID-19 pandemic of did not have a substantial impact on the projected future of happiness.
-- Over the timescale of the study, the dataset contained additional fields and was more complete, with additional countries.
+
 
 - Final accuracy achieved:
-    - Mean Squared Error: 0.0169
-    - R^2 Score: 0.9316
+    - Mean Squared Error: 
+    - R^2 Score: 
 
 ## Problems Encountered
 - Processing many of the jupyter notebook cells strained our relatively fast CPUs and took many hours to process, even after changing parameters
@@ -168,7 +179,9 @@ We used data from The Movie Database (TMDB) for a record of movies and their gen
 - 
 
 ## Future Considerations
-- TMDB
+• A link to the actual movie on streaming services as part of the Python output
+ • A fully integrated seamless HTML system
+ • Integration of more APIs, such as IMDB and Rotten Tomatoes
 
 
 ## Repository Files
@@ -177,23 +190,10 @@ We used data from The Movie Database (TMDB) for a record of movies and their gen
 | **File** | **Description** |
 | --- | --- | 
 | **DATA PREPARATION :** | | 
-| **[WHR 2005 to 2023.csv](https://github.com/crmartella/WorldHappinessReportMSUBootcamp/blob/main/Resources/WHR%202005%20to%202023.csv)** | CSV file containing WHR data from 2005 - 2023  |
-| **[WHR_2005to2023_processed.csv](https://github.com/crmartella/WorldHappinessReportMSUBootcamp/blob/main/Resources/WHR_2005to2023_processed.csv)** | Additonal CSV used for Seaborn |
 | | |
-| **MODELING AND PREDICTIONS :** | | 
-| **[Correlation_to_HappinessLadder.ipynb](https://github.com/crmartella/WorldHappinessReportMSUBootcamp/blob/main/Correlation_to_HappinessLadder.ipynb)** | All categories related to happiness Seaborn Regplot  |
-| **[High_Correlation_Attributes_Analysis_(Regional).ipynb](https://github.com/crmartella/WorldHappinessReportMSUBootcamp/blob/main/High_Correlation_Attributes_Analysis_(Regional).ipynb)** | Most significant correlations to happines using Seaborn Pairplot| 
-| **[Linear_Regression_Prophet.ipynb](https://github.com/crmartella/WorldHappinessReportMSUBootcamp/blob/main/Linear_Regression_Prophet.ipynb)** | Linear Regression, Prophet, KNN, RandomForest, and Seaborn |
-| **[Regional_Correlation.ipynb](https://github.com/crmartella/WorldHappinessReportMSUBootcamp/blob/main/Regional_Correlation.ipynb)** | Regional Analysis | 
-| **[.gitignore](https://github.com/crmartella/WorldHappinessReportMSUBootcamp/blob/main/.gitignore)** | Git ignore  |
 | | |
 **PRESENTATION :** 
-| **[Factors_Impacting_Global_Happiness.pdf](https://github.com/crmartella/WorldHappinessReportMSUBootcamp/blob/main/Factors_Impacting_Global_Happiness.pdf)** | Powerpoint used in presentation |
+
 
 
 ## Acknowledgments
-
-- [World Happiness Report (2005-2022) Kaggle Data Set](https://www.kaggle.com/datasets/usamabuttar/world-happiness-report-2005-present/data)
-- [World Happiness Report (2023) Kaggle Data Set](https://www.kaggle.com/datasets/sazidthe1/global-happiness-scores-and-factors?select=WHR_2023.csv)
-- [Statistical Appendix: Latest version - March 13, 2023](https://happiness-report.s3.amazonaws.com/2023/WHR+23_Statistical_Appendix.pdf)
-- [World Happiness Report Home](https://worldhappiness.report/)
