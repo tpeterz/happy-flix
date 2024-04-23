@@ -1,4 +1,4 @@
-<img src="Readme_Art/HappyFlix_Logo.png" alt="Happy Flix Logo" width="451"/>
+<img src="Readme_Art/HappyFlix_Logo.png" alt="Happy Flix Logo" width="450"/>
 
 # HappyFlix: Emotion Based Movie Selection  
 
@@ -50,7 +50,7 @@ To explore our findings and analysis, follow these steps:
 
 <img src="Readme_Art/MovieArt.jpg" alt="Movie Art" width="300"/>
 
-## Goals / Questions to be addressed
+## Goals / Questions to be Addressed
 1. Can someone's mood and movie preference be analyzed by AI to suggest the perfect movie for them to watch at a particular time?
 2. Can our AI system choose a variety of different movies depending on user input?
 3. We want the user to use their voice to explain their mood and movie preferences, and then have our Gradio interface display 3 movie titles, and for each movie:
@@ -130,9 +130,12 @@ Purged:
 - Release month and day from release date
 - Total recommended votes
 
-<img src="Readme_Art/Emotions.jpg" alt="Emotions" width="300"/>
+
 
 ## Outline of Analytical Process
+
+<img src="Readme_Art/Emotions.jpg" alt="Emotions" width="300"/>
+
 1. Using Gradio and OpenAI's GPT-4 model, users can record a clip of them speaking, which can then converted to text.
 2. The text is then analyzed to determine the user's mood and sentiment.
 3. The text is also analyzed to help determine what particular movies the user might like to see.
@@ -142,7 +145,7 @@ Purged:
 <img src="Readme_Art/Emotion_Wheel.jpg" alt="Emotion Wheel" width="400"/>
 
 
-## Analysis and Results
+## Analysis & Results
 
 1. **Dataset Selection and Modification**
     - We parsed numerous datasets and APIs to find one that not only contained the fields we needed, but 
