@@ -1,10 +1,10 @@
-# HappyFlix: Emotion Based Movie Selection  
+<img src="Readme_Art/HappyFlix_Logo.png" alt="Happy Flix Logo" width="450"/>
 
-<img src="Readme_Art/HappyFlix_Logo.png" alt="Happy Flix Logo" width="400"/>
+# HappyFlix: Emotion Based Movie Selection  
 
 ## MSU AI Bootcamp: Project #3
 
-<img src="Readme_Art/DLU.jpg" alt="Don't Look Up" width="300"/>
+<img src="Readme_Art/DLU.jpg" alt="Don't Look Up" width="600"/>
 
 ## HappyFlix Development Team
 ### Members:
@@ -22,7 +22,7 @@ To explore our findings and analysis, follow these steps:
 
 1. **Installation:** Clone this repository to your local machine.
 2. **Setup:** Open the cloned repository in Jupyter Notebook, Visual Studio, or Google Colab. Code to access the Gradio page, where you can speak, and receive movie recommendations.
-3. **Access**: To utilize many of our notebooks, you will need to obtain access keys from the following sources:
+3. **Access**: To utilize many of our notebooks, you will need to obtain API keys from the following sources:
 `HuggingFace` `OpenAI` `The Movie Database` 
 
 <img src="Readme_Art/Transformers.jpg" alt="Transformers" width="300"/>
@@ -204,4 +204,4 @@ imported the selected CSV file into our project repository.
 
 [The Movie Database](https://www.themoviedb.org/)
 
-<img src="Readme_Art/Theater.jpg" alt="Movie Theater" width="200"/>
+<img src="Readme_Art/Theater.jpg" alt="Movie Theater" width="300"/>
