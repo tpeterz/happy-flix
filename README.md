@@ -90,10 +90,10 @@ Reviews
 
 
 ## Data Clean-Up
-Movie ID number
-Popularity Score
-Release month and day from release date
-Total recommended votes
+- Movie ID number
+- Popularity Score
+- Release month and day from release date
+- Total recommended votes
 
 
 ### Our process:
